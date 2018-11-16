@@ -1,1 +1,1 @@
-console.info('It worked!')
+console.info('It worked with CI!')
