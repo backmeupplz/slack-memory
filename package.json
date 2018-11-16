@@ -1,0 +1,24 @@
+{
+  "name": "slack-memory",
+  "version": "1.0.0",
+  "description": "Slack Memory app",
+  "main": "dist/app.js",
+  "repository": "https://github.com/backmeupplz/slack-memory",
+  "author": "backmeupplz",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "distribute": "yarn build-ts && node dist/app.js",
+    "develop": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold\" \"yarn watch-ts\" \"yarn watch-js\"",
+    "build-ts": "tsc --skipLibCheck",
+    "watch-ts": "tsc -w --skipLibCheck",
+    "watch-js": "nodemon dist/app.js"
+  },
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/node": "^10.12.0",
+    "dotenv": "^6.1.0",
+    "typegoose": "^5.4.1",
+    "typescript": "^3.1.3"
+  }
+}
