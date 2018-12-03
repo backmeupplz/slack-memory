@@ -1,6 +1,6 @@
-# Slack Memory code
+# Million Ants code
 
-This is the code for the anti-spam Telegram bot I've built. Enjoy and feel free to reuse!
+This is the code for the free Slack history gatherer and searcher.
 
 # Installation and local launch
 
