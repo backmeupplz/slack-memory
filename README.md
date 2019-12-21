@@ -19,10 +19,6 @@ And you should be good to go! Feel free to fork and submit pull requests. Thanks
 
 Also, please, consider looking at `.env.sample`.
 
-# Continuous integration
-
-Any commit pushed to master gets deployed to Slack Memory app via [CI Ninja](https://github.com/backmeupplz/ci-ninja).
-
 # License
 
 MIT — use for any purpose. Would be great if you could leave a note about the original developers. Thanks!
